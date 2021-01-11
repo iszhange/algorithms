@@ -13,7 +13,7 @@ void main()
     int arr[] = {9,2,24,5,2,66,33,4,6};
     int length = sizeof(arr) / sizeof(arr[0]);
     array_print(arr, length);
-    bobble_sort(arr, length);
+    bobble_sort3(arr, length);
     array_print(arr, length);
 
 }
@@ -22,7 +22,7 @@ void main()
 void array_print(int array[], int length)
 {
     for (int i = 0; i < length; ++i) {
-        printf("%d", array[i]);
+        printf("%d ", array[i]);
     }
     printf("\n");
 }
