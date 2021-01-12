@@ -1,9 +1,8 @@
 //
+// 冒泡排序
 // Created by kaiz on 2021/1/10.
 //
 
-#include "algorithms.h"
-#include <stdio.h>
 #include <stdbool.h>
 
 // 基础版

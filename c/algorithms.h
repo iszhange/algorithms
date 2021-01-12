@@ -9,4 +9,6 @@ void bobble_sort(int *array, int length);
 void bobble_sort2(int *array, int length);
 void bobble_sort3(int *array, int length);
 
+void cocktail_sort(int *array, int length);
+
 #endif //ALGORITHMS_ALGORITHMS_H

@@ -13,7 +13,7 @@ void main()
     int arr[] = {9,2,24,5,2,66,33,4,6};
     int length = sizeof(arr) / sizeof(arr[0]);
     array_print(arr, length);
-    bobble_sort3(arr, length);
+    cocktail_sort(arr, length);
     array_print(arr, length);
 
 }
